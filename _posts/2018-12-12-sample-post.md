@@ -1,5 +1,5 @@
 ---
-title: Sample Post - Markdown Syntax
+title: The competition willl be launched!
 commentable: flase
 Edit: 2018-11-14
 mathjax: true
