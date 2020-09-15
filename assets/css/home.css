@@ -296,13 +296,13 @@ sub,sup{
 .user-details{
     text-align:center;
     margin:5px auto;
-		width:90%;
+		width:60%;
 }
 .permlinks{
     margin:10px;
 		border-left:10%;
-    width:80%;
-    text-align:right
+    width:50%;
+    text-align:left
 }
 .lower{
     text-align:center;
