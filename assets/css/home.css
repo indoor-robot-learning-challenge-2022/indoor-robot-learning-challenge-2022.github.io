@@ -293,16 +293,16 @@ sub,sup{
         width:90%
     }
 }
-.user-details{
-    text-align:center;
-    margin:5px auto;
-		width:60%;
+.user-details {   
+  text-align: center;
+  width: 60%;
 }
-.permlinks{
-    margin:10px;
-		border-left:10%;
-    width:50%;
-    text-align:center
+	
+.permlinks {   
+  text-align: left;
+  width:60%;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 .lower{
     text-align:center;
