@@ -1,7 +1,7 @@
 ---
-title: The competition willl be launched!
+title: The competition will soon be launched!
 commentable: flase
-Edit: 2018-11-14
+Edit: 2020-09-13
 mathjax: true
 mermaid: true
 tags: tag1 tag2 tag3
