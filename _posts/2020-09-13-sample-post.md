@@ -4,5 +4,5 @@ commentable: false
 Edit: 2020-09-13
 mathjax: true
 mermaid: true
-description: The grant opening of this challenge will be on Sep 18 2020.
+description: The grant opening of this challenge will be held on Sep 18 2020.
 ---
