@@ -68,7 +68,7 @@ table.center {
 	{% for post in site.posts limit:4 %}
 	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i>{{ post.title }}</a> &nbsp;
 	{% if post.description %}
- <dd style="text-align: justify">{<strong><I>{ post.description | markdownify }</I><strong>}
+ <dd style="text-align: justify">{{ post.description | markdownify }}
     </dd>
 	{% endif %}
 	{% endfor %}
@@ -130,7 +130,7 @@ table.center {
 	
 	
 <h2>Co-Organizations</h2>
-<img src="https://indoor-robot-learning-challenge-2021.github.io/blob/master/about/Organization.png" alt="Human-Robot-Computer" width="820">
+<img src="https://indoor-robot-learning-challenge-2021.github.io/about/Organization.png" alt="Human-Robot-Computer" width="820">
 	
 <h2>Distributed Testing Sites</h2>
 <p style="text-align: justify;"></p>
