@@ -68,7 +68,7 @@ table.center {
 	{% for post in site.posts limit:4 %}
 	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i>{{ post.title }}</a> &nbsp;
 	{% if post.description %}
- <dd style="text-align: justify">{{ post.description | markdownify }}
+ <dd style="text-align: justify">{<strong><I>{ post.description | markdownify }</I><strong>}
     </dd>
 	{% endif %}
 	{% endfor %}
