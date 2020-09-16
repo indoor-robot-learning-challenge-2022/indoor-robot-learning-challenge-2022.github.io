@@ -1,5 +1,5 @@
 ---
-title: *The competition will soon be launched!*
+title: The competition will soon be launched!
 commentable: false
 Edit: 2020-09-13
 mathjax: true
