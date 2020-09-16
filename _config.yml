@@ -1,9 +1,9 @@
 # Site settings
-title: Indoor Robot Learning
-description: Grand Challenge
+title: Grand Challenge
+description: Indoor Robot Learning
 baseurl: "" 
 #change the baseurl to "" if you are using it as your user GitHub Pages
-url: "https://yk-liu.github.io"  
+url: "https://lifelong-robotic-vision.github.io"  
 
 
 # GitHub User settings
