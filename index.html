@@ -60,8 +60,10 @@ table.center {
 
 
 <div class="user-details">
-<div class="permlinks">
 <h1>Announcements</h1>
+</div>
+
+<div class="permlinks">
 <dl>
 	{% for post in site.posts limit:4 %}
 	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i>{{ post.title }}</a> &nbsp;
@@ -75,7 +77,6 @@ table.center {
 	<p> Further information will be posted during the challenge.</p>
     <p> Plese check this website for updates regularly for the lastest information! </p>
 </dl>
-</div>
 </div>
 
 
