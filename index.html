@@ -22,6 +22,7 @@ layout: home
 h2 {
   text-align: center;
 }
+
 .others {
     width:60%;
     padding-right: 20%;
@@ -60,7 +61,7 @@ table.center {
 
 <div class="permlinks">
 
-<h2>Recent Posts</h2>
+<h2>Announcements</h2>
 <dl>
 	{% for post in site.posts limit:4 %}
 	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i>{{ post.title }}</a> &nbsp;
