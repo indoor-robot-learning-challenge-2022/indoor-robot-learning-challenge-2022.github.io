@@ -55,8 +55,11 @@ table.center {
 <div class="user-details">
 <h1> Introduction to Continuous Robotic Learning </h1>
     <img src="https://lifelong-robotic-vision.github.io/about/Relation.png" alt="Human-Robot-Computer" width="520">
-    <p style="text-align: justify;"> More recently, service robots have emerged as a highlight for both academic and industrial field. Applications faced to public tend to be more mature, such as public service robots in locations such as airports and hotels, but developments are not limited to. There are even greater potential in applications that are more <strong><I>personal</I></strong>, <strong><I>private</I></strong>, and <strong><I>customized</I></strong>, such as home assistant, elderly care, smart retail etc. Beyond all the achievements, the long-time technology bottleneck is <strong><I>the lack of robot learning capability</I></strong>. That is, just the mainstream supervised learing (including Deep Learning) based on pre-annoated data is not good enough for robotic applications that requires learning continuously in <strong><I>preception</I></strong>, <strong><I>manipulation</I></strong>, and <strong><I>interaction with users</I></strong>. Indoor environment therefore provides an ideal environment for continuous learning, since robots therefore have opportunities interacting with their surroundings more effectively. </p>
-    <p style="text-align: justify;"> The grand challenge aims to provide a platform that evaluates the latest progress of the field. The challenge is designed to have two perspectives: <strong><I>the perception/cognition</I></strong> and <strong><I>the physical tasks</I></strong>. Teams with different background in all releated fields are encouraged. This include but not limited to the field of robotics, machine learing, and computer vision. Collaborations are also strongly encouraged. We believe this grand challenge will have significant social, academical, and industrial achievement in future research, and paves a way to large-scale deployment of convinent service robot in the next 5 to 10 years. </p>
+    <p style="text-align: justify;"> 
+      More recently, service robots have emerged as a highlight for both academic and industrial field. We start to see applications of robot in our daily life, such as public service robots in locations like airports and hotels. There is even greater potential in applications that are more <strong><I>personal</I></strong>, <strong><I>private</I></strong>, and <strong><I>customized</I></strong>, such as home assistant, elderly care, smart retail etc. To realize such great potential of service robots, one of the long-time technology bottlenecks is <strong><I>the lack of efficient and robust robot learning capability</I></strong>. That is, just the mainstream supervised learning (including Deep Learning) based on large amount of pre-annotated data is not good enough for robotic applications that requires learning continuously in <strong><I>preception</I></strong>, <strong><I>cognition</I></strong>, <strong><I>manipulation</I></strong>, and <strong><I>interaction with users</I></strong>. Indoor environment provides an ideal environment for robot learning especially self-supervised and continual learning, since robots have opportunities interacting with their surroundings more effectively. </p>
+
+    <p style="text-align: justify;"> 
+      The grand challenge aims to provide a platform to evaluate the latest progress of the field. The challenge is designed to have two perspectives: <strong><I>the perception/cognition</I></strong> and <strong><I>the physical tasks</I></strong>. Teams with different background in all related fields are encouraged. This include but not limited to the field of robotics, machine learning, and computer vision. Collaborations are also strongly encouraged. We believe this grand challenge will have significant social, academical, and industrial achievement in future research, and paves a way to large-scale deployment of convenient service robot in the next 5 to 10 years. </p>
 </div>
 
 
@@ -67,7 +70,7 @@ table.center {
 <div class="permlinks">
 <dl>
 	{% for post in site.posts limit:4 %}
-	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i>{{ post.title }}</a> &nbsp;
+	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i>{{ post.title }} &nbsp;
     <dd style="text-align: justify">{{ post.description | markdownify }}
     </dd>
 	{% endfor %}
