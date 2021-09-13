@@ -70,15 +70,13 @@ table.center {
 
 <div class="permlinks">
 <dl>
-	{% for post in site.posts limit:4 %}
+	{% for post in site.posts limit:5 %}
 	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i>{{ post.title }} &nbsp;
     <dd style="text-align: justify">{{ post.description | markdownify }}
     </dd>
 	{% endfor %}
     <p> ... </p>
     <p> </p>
-    <p style="text-align: justify;"> **Local testings are postponed to February, 2022 due to ongoing pandemic.**</p>
-    <p style="text-align: justify;"> **Finals are postponed to April, 2022 for the same reason.**</p>
     <p style="text-align: justify;">Further information will be posted during the challenge.</p>
     <p style="text-align: justify;"> Please check this website for updates regularly for the lastest information! </p>
 </dl>
