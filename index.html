@@ -70,7 +70,7 @@ table.center {
 
 <div class="permlinks">
 <dl>
-	{% for post in site.posts limit:5 %}
+	{% for post in site.posts limit:8 %}
 	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i>{{ post.title }} &nbsp;
     <dd style="text-align: justify">{{ post.description | markdownify }}
     </dd>
@@ -78,7 +78,8 @@ table.center {
     <p> ... </p>
     <p> </p>
     <p style="text-align: justify;">Further information will be posted during the challenge.</p>
-    <p style="text-align: justify;"> Please check this website for updates regularly for the lastest information! </p>
+    <p style="text-align: justify;">Please check this website for updates regularly for the lastest information! </p>
+    <p style="text-align: justify;">In addition, the rulebook has been updated according to the feedback from the participating teams. Please check the latest version of the rulebook in time. </p>
 </dl>
 </div>
 
