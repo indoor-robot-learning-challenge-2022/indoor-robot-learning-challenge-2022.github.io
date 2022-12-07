@@ -1,5 +1,5 @@
 ---
-title: Call for participants
+title: <strong>Call for participants</strong>
 commentable: false
 Edit: 2021-05
 mathjax: true
