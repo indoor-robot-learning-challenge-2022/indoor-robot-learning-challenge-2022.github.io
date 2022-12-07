@@ -1,5 +1,5 @@
 ---
-title: Call for local testing facilities
+title: <strong>Call for local testing facilities</strong>
 commentable: false
 Edit: 2021-05
 mathjax: true
