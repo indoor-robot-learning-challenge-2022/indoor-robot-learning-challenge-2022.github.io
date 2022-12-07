@@ -1,5 +1,5 @@
 ---
-title: Kick-Off Workshop
+title: <strong>Kick-Off Workshop</strong>
 commentable: false
 Edit: 2020-06
 mathjax: true
