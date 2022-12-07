@@ -1,5 +1,5 @@
 ---
-title: <p style="font-size:30px;">Kickoff Workshop</p>
+title: <div style="font-size:30px;">Kickoff Workshop</div>
 commentable: false
 Edit: 2020-06
 mathjax: true
