@@ -1,5 +1,5 @@
 ---
-title: Grand Opening
+title: <strong>Grand Opening</strong>
 commentable: false
 Edit: 2020-09
 mathjax: true
