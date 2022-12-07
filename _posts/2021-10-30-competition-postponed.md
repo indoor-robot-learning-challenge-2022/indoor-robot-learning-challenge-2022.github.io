@@ -1,5 +1,5 @@
 ---
-title: Testing and Finals are Postponed
+title: <strong>Testing and Finals are Postponed</strong>
 commentable: false
 Edit: 2021-09
 mathjax: true
