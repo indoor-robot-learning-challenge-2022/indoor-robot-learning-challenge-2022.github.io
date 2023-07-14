@@ -1,0 +1,205 @@
+---
+layout: home
+---
+<head>
+<style>
+.user-details {
+  text-align: center;
+  width: 60%;
+}
+
+.permlinks {
+  width:60%;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.user-details {
+  text-align: center;
+  width: 60%;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.others {
+    width:60%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+p {
+  text-align: left;
+}
+
+li:not(:last-child) {
+    margin-bottom: 1px;
+}
+
+table, th, td {
+  font-size: 16px;
+  border: 1px solid #B6B6B4;
+  border-collapse: collapse;
+  padding: 1px;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+
+
+<div class="user-details">
+<h1> Introduction to Continuous Robotic Learning </h1>
+    <img src="https://lifelong-robotic-vision.github.io/about/Relation.png" alt="Human-Robot-Computer" width="520">
+    <p style="text-align: justify;"> 
+      More recently, service robots have emerged as a highlight for both academic and industrial field. We start to see applications of robot in our daily life, such as public service robots in locations like airports and hotels. There is even greater potential in applications that are more <strong>personal</strong>, <strong>private</strong>, and <strong>customized</strong>, such as home assistant, elderly care, smart retail etc. To realize such great potential of service robots, one of the long-time technology bottlenecks is <strong>the lack of efficient and robust robot learning capability</strong>. That is, just the mainstream supervised learning (including Deep Learning) based on large amount of pre-annotated data is not good enough for robotic applications that requires learning continuously in <strong>perception</strong>, <strong>cognition</strong>, <strong>manipulation</strong>, and <strong>interaction with users</strong>. Indoor environment provides an ideal environment for robot learning especially self-supervised and continual learning, since robots have opportunities interacting with their surroundings more effectively. </p>
+
+    <p style="text-align: justify;"> 
+      The grand challenge aims to provide a platform to evaluate the latest progress of the field. The challenge is designed to have two perspectives: <strong>the perception/cognition</strong> and <strong>the physical tasks</strong>. Teams with different background in all related fields are encouraged. This include but not limited to the field of robotics, machine learning, and computer vision. Collaborations are also strongly encouraged. We believe this grand challenge will have significant social, academical, and industrial achievement in future research, and paves a way to large-scale deployment of convenient service robot in the next 5 to 10 years. </p>
+</div>
+
+
+<div class="user-details">
+<h1>Announcements</h1>
+<img src="https://indoor-robot-learning-grand-challenge.github.io/first_stage_testing_end.jpg" alt="List of finalists" width="780">
+</div>
+
+<div class="permlinks">
+<dl>
+	{% for post in site.posts limit:8 %}
+	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i>{{ post.title }} &nbsp;
+    <dd style="text-align: justify">{{ post.description | markdownify }}
+    </dd>
+	{% endfor %}
+    <p> ... </p>
+    <p> </p>
+    <p style="text-align: justify;">Further information will be posted during the challenge. Please check this website for updates regularly for the lastest information! </p>
+    <p style="text-align: justify;">In addition, the rulebook has been updated according to the feedback from the participating teams. Please check the latest version of the rulebook in time. </p>
+</dl>
+</div>
+
+
+<div class="user-details">
+<h1>Competition Schedule</h1>
+<p style="text-align: justify;">The competition schedule is as follows, will be updated subject to changes:</p>
+{% include schedule.html %}
+</div>
+
+
+
+<div class="user-details">
+<h1>Distributed Testing Sites</h1>
+<p style="text-align: justify;"></p>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=05374d&w=290&t=tt&d=x7IWUg_YqbOmacnqED0RqqXqY6DRLCwhFJWMAFYteFw&co=d5d9db&ct=0f0101'></script><p style="text-align: justify;"> There will be multiple testing sites around the world for this competition. Each task force team is allowed to choose a testing site according to their own geographical position and complete on-site testings in about one week. The potential testing sites are as follows (the confirmed ones are highlighted with light green): </p>
+
+{% include testingSite.html %}
+
+<h2> Call for Contribution of Local Testing Facilities </h2>
+<p style="text-align: justify;"> Since this competition needs testing at local testing facilities, and we welcome applications to contribute testing facilities from worldwide. 
+  Please email Yimin Zhang (yimin.zhang@intel.com). </p>		
+  <p style="text-align: justify;"> There are two types of testing facilities, including full and simplified. Full testing facility may need up to 30 square meters (see the rule book for details). Simplified testing facility only needs space that can complete one of the testing tasks (especially some manipulation task only needs smaller space). </p>
+  <p style="text-align: justify;"> All the set up and equipment (robots etc.) should be funded by university lab or company who contributed the testing facility. Also each testing facility needs to recruit volunteers to help on the testing. To recognize the contribution, the main contact person will be assigned as TPC member (Technical and program committee member) of this Grand challenge.</p>
+  <p style="text-align: justify;"> Calling for participation is extended to Dec. 20th, 2021. </p>
+</div>
+
+
+<div class="user-details">
+<h1>Co-Organizations</h1>
+<img src="https://indoor-robot-learning-grand-challenge.github.io/Co-Organizations_1.png" alt="Co-Organizations_1" width="820">
+<img src="https://indoor-robot-learning-grand-challenge.github.io/Co-Organizations_2.png" alt="Co-Organizations_2" width="820">
+</div>
+
+<div class="user-details">
+<h1>Co-Organizers</h1>
+<img src="https://indoor-robot-learning-grand-challenge.github.io/co-organizers.png" alt="Co-Organizers" width="820">
+</div>
+
+<div class="user-details">
+<h1>Consultation Committee</h1>
+<p style="text-align: justify;"> Jianwei Zhang, University of Hamburg </p>
+<p style="text-align: justify;"> Il-Hong Suh, Hanyang University, retired</p>
+</div>
+
+<div class="user-details">
+<h1>Technical and Program Committee</h1>
+<p style="text-align: justify;"> Bin Fang, Tsinghua University </p>
+<p style="text-align: justify;"> Miao Li, Cobot Ltd. </p>
+<p style="text-align: justify;"> Qiang Li, Bielefeld University </p>
+<p style="text-align: justify;"> Maximo Roa, DLR </p>
+<p style="text-align: justify;"> Zhen Deng, Fuzhou University </p>
+<p style="text-align: justify;"> Francesco Rea, IIT </p>
+<p style="text-align: justify;"> Ping Guo, Intel Labs China</p>
+<p style="text-align: justify;">Zhigang Wang, Intel Labs China </p>
+<p style="text-align: justify;">Lidan Zhang, Intel Labs China </p>
+</div>
+
+
+<div class="user-details">
+<h1>Join the Competition</h1>
+    <p style="text-align: justify;">To join the competition, please email <a href="mailto:yimin.zhang@intel.com">Yimin Zhang</a> (yimin.zhang@intel.com) with below information, pdf will be preferred since txt form might be rejected by our business email.</p>
+    <p style="text-align: justify;">A 1-2 pages description about your team which includes:
+    <p style="text-align: justify;">(1)	   Names of team members with their affiliations and contacts;
+    <p style="text-align: justify;">(2)    Who the team leader is;
+    <p style="text-align: justify;">(3)    Among the 10 tasks defined in the rulebook, which track will your team participate;
+    <p style="text-align: justify;">(4)	   A brief description of the team's technology, robotic systems (your own robotics platforms), and sensor systems;
+    <p style="text-align: justify;">(5)	   Video or video link for your demonstrations related to the competition is also welcomed but not required.</p>
+    <p style="text-align: justify;">For teams who have budget to order standard robot platforms, please also indicate this in your email. We will work with partners to see how to help on this. More information can be found in the rule book.</p>
+    <p style="text-align: justify;">Also, if you would like to get help in running remote testing for teams who don't have access to nearby local testing facilities, please let us know. </p>
+    <p style="text-align: justify;">Calling for participation is extended to Dec. 20th, 2021.</p>
+</div>
+
+<div class="user-details">
+<h1>Deadlines of Registration</h1>
+<p style="text-align: justify;"> <strong><I>Important Notes</I></strong>: Due to current pandemic situation and the consideration that this is the first year of this planned three-year competition, we will make this year's schedule more flexible. Teams can still make registration after the deadline, but earlier registration is encouraged since there might be more issues to deal with for late registration due to scheduling of local testing facilities. <strong><I>The registration deadline is on Dec. 20th, 2021</I></strong>, <strong><I>the acceptance announcement will be out in 1-2 weeks but no later than Dec. 30th, 2021</I>.</strong></p>
+</div>
+
+
+<div class="user-details">
+  <h1>Competition Rules</h1>
+	<p style="text-align: justify;">From the feedback, we have adjusted the rule accordingly in order to encourage participation, while still keep the competition tasks challenging:</p>
+	<p style="text-align: justify;">(1)	a Limited number of teams using data collected on the testing site to do training/pretraining/fine tuning will be considered to be selected for the final competition, but they need to disclose to the judge team.</p>
+	<p style="text-align: justify;">(2)	In the final competition, on the last day of testing each team will be allowed to use data collected on the testing site to do training/pretraining/fine-tuning, also this needs to be disclosed to the judge team.</p>
+
+      <p style="text-align: justify;">See details in the updated<a href="https://indoor-robot-learning-grand-challenge.github.io/IRLRulebook20221212.pdf"> competition rulebook v2.1</a>.
+      </p>
+      <p style="text-align: justify;">Suggestions are welcomed for improvement!</p>
+	
+  <h1>Granted Prizes</h1>
+      <p style="text-align: justify;">For all 10 tasks, the first place is granted $7,000 of prizes, the second place is granted $4,000 of prizes, and the thrid place is granted $3,000 of prizes.</p>
+      <p style="text-align: justify;">Please understand that all prize amounts are tentative and subject to change.</p>
+	
+	
+  <h1>Referee and Fairness Ensuring</h1>
+      <p style="text-align: justify;">Due to the ongoing pandemic, the time length of this competition is longer than typical robot competitions (up to 7 days, to mimic real home use cases where robot learning may need to be fully autonomous). Therefore, in order to reduce cost, the first stage testing will be performed online mainly. For annual final competition, the format is still undecided yet, it will likely be mixed (some teams on site at a centralized testing facilities, some teams online, depending on traveling restrictions related to COVID 19 pandemic).</p>
+      <p style="text-align: justify;">(1)    Each team will live-stream their performance on the testing period (up to 7 days depending on tasks), so referee can check and do scoring online. Each team can decide their own live-stream solution (e.g. how many cameras), just make it easy for referee team to judge from the video. The video should also be stored and accessible by referee team later for possible questions of rule following concerns before annual final competition.</p>
+      <p style="text-align: justify;">(2)    For teams into final competition, a technical presentation slides needs to be prepared. And selected teams will give a presentation on the workshop event for the annual final competition. These information will be also used by referee team as reference for possible not-following-rule investigations. </p>
+      <p style="text-align: justify;">(3)    To ensure fairness of this grand challenge, teams not following rules defined in the rule book will be asked to do re-testing or quit at any time (including final competition) based on the discretion of organizing committee.</p>
+  </div>
+	
+  <div class="user-details">
+    <h1>Support</h1>
+        <p style="text-align: justify;">We are grateful for the support of the following organizations:</p>
+        <p style="text-align: justify;"> </p>
+        <p style="text-align: justify;">IEEE RAS Technical Committee Collaborative Automation For Flexible Manufacturing (<a href = "http://www.ieee-cafm.org/">Homepage</a>)</p>
+        <p style="text-align: justify;">IEEE RAS Technical Committee for Robot Learning(<a href = "https://www.ieee-ras.org/robot-learning/">Homepage</a>)</p>   
+    </div>
+
+
+
+
+  <div class = "user-details">
+    <h1>Acknowledgement</h1>
+        <p style="text-align: justify;">This section will introduce the website maintaing team.</p>
+        <p style="text-align: justify;">The website is created and maintained by <a href="mailto:yw446@cornell.edu">Cindy Wei</a> and <a href="mailto:yf94@cornell.edu">Agnes Feng</a> from Cornell University.</p>
+        <p style="text-align: justify;">Special thanks to Yingkai Liu for such a great <a href="https://yk-liu.github.io/">website template</a>.</p>
+  </div>
+    
+  <div class="user-details">
+    <h1>Further Reading</h1>
+        <p style="text-align: justify;">This section will contain any related articles and recent news. <br/> Will be updated later by the committee.</p>
+    </div>
