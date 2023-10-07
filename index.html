@@ -68,6 +68,14 @@ table.center {
 <h1>Announcements</h1>
 <img src="https://indoor-robot-learning-grand-challenge.github.io/2023_poster.jpg" alt="List of finalists" width="520">
 </div>
+<div class="permlinks">
+<dl>
+	{% for post in site.posts limit:8 %}
+	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i>{{ post.title }} &nbsp;
+    <dd style="text-align: justify">{{ post.description | markdownify }}
+    </dd>
+	{% endfor %}
+</div>
 
 
 <div class="user-details">
